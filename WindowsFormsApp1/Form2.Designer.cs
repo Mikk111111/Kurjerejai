@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.Vardas = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -159,6 +160,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Vardas);
             this.Controls.Add(this.textBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.Text = "Registracija";
             this.ResumeLayout(false);
