@@ -73,9 +73,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2024_10_15_030522 {
+        internal static System.Drawing.Bitmap gedimino {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2024-10-15 030522", resourceCulture);
+                object obj = ResourceManager.GetObject("gedimino", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2024_10_20_151912 {
+        internal static System.Drawing.Bitmap Main_map {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2024-10-20 151912", resourceCulture);
+                object obj = ResourceManager.GetObject("Main_map", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2024_10_20_154154 {
+        internal static System.Drawing.Bitmap pagrindinis {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2024-10-20 154154", resourceCulture);
+                object obj = ResourceManager.GetObject("pagrindinis", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2024_10_20_182256 {
+        internal static System.Drawing.Bitmap stock {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2024-10-20 182256", resourceCulture);
+                object obj = ResourceManager.GetObject("stock", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
