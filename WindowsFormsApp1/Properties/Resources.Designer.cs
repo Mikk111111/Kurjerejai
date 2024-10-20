@@ -63,6 +63,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ezgif_3_7fdb435a6c {
+            get {
+                object obj = ResourceManager.GetObject("ezgif-3-7fdb435a6c", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Screenshot_2024_10_15_030522 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2024-10-15 030522", resourceCulture);
@@ -86,6 +96,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap Screenshot_2024_10_20_154154 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2024-10-20 154154", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2024_10_20_182256 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2024-10-20 182256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
