@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,14 +16,16 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            /*
+            GraphicsPath p = new GraphicsPath();
+            p.AddEllipse(1, 1, button1.Width - 2, button1.Height - 2);
+            button1.Region = new Region(p);
+
+            GraphicsPath q = new GraphicsPath();
+            q.AddEllipse(1, 1, button2.Width - 2, button2.Height - 2);
+            button2.Region = new Region(p);
+            */
         }
-
-        // Šis metodas išlieka, jei jis naudojamas vėliau.
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         // Tai yra įvykio tvarkyklė mygtukui. Ją redaguosime, kad atidarytų Form2.
         private void button1_Click(object sender, EventArgs e)
         {
@@ -41,11 +44,6 @@ namespace WindowsFormsApp1
             // Rodome Form4 langą
             form4.Show();
             this.Hide();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

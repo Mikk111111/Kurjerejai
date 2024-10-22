@@ -45,7 +45,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(201, 478);
+            this.textBox1.Location = new System.Drawing.Point(201, 357);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(271, 44);
             this.textBox1.TabIndex = 0;
@@ -53,27 +53,32 @@
             // Vardas
             // 
             this.Vardas.AutoSize = true;
+            this.Vardas.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.Vardas.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Vardas.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Vardas.Location = new System.Drawing.Point(12, 478);
+            this.Vardas.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Vardas.Location = new System.Drawing.Point(12, 357);
             this.Vardas.Name = "Vardas";
-            this.Vardas.Size = new System.Drawing.Size(120, 37);
+            this.Vardas.Size = new System.Drawing.Size(122, 39);
             this.Vardas.TabIndex = 1;
             this.Vardas.Text = "Vardas";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 528);
+            this.label1.Location = new System.Drawing.Point(12, 407);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 37);
+            this.label1.Size = new System.Drawing.Size(137, 39);
             this.label1.TabIndex = 2;
             this.label1.Text = "Pavarde";
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(201, 528);
+            this.textBox2.Location = new System.Drawing.Point(201, 407);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(271, 44);
             this.textBox2.TabIndex = 3;
@@ -81,17 +86,19 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 578);
+            this.label2.Location = new System.Drawing.Point(12, 457);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(115, 37);
+            this.label2.Size = new System.Drawing.Size(117, 39);
             this.label2.TabIndex = 4;
             this.label2.Text = "Pastas";
             // 
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(201, 578);
+            this.textBox3.Location = new System.Drawing.Point(201, 457);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(271, 44);
             this.textBox3.TabIndex = 5;
@@ -99,7 +106,8 @@
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(201, 628);
+            this.textBox4.Location = new System.Drawing.Point(201, 507);
+            this.textBox4.MaxLength = 11;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(271, 44);
             this.textBox4.TabIndex = 6;
@@ -107,7 +115,7 @@
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(201, 678);
+            this.textBox5.Location = new System.Drawing.Point(201, 557);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(271, 44);
             this.textBox5.TabIndex = 7;
@@ -115,31 +123,37 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 628);
+            this.label3.Location = new System.Drawing.Point(12, 507);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(183, 37);
+            this.label3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label3.Size = new System.Drawing.Size(159, 39);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Slaptazodis";
+            this.label3.Text = "Telefonas";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 678);
+            this.label4.Location = new System.Drawing.Point(12, 557);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(137, 37);
+            this.label4.Size = new System.Drawing.Size(53, 39);
             this.label4.TabIndex = 9;
-            this.label4.Text = "Pakartot";
+            this.label4.Text = "??";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button1.Location = new System.Drawing.Point(12, 749);
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(12, 649);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(460, 100);
+            this.button1.Size = new System.Drawing.Size(460, 200);
             this.button1.TabIndex = 10;
-            this.button1.Text = "Issaugoti";
+            this.button1.Text = "Toliau";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

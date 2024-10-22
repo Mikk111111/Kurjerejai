@@ -43,7 +43,7 @@ namespace WindowsFormsApp1
         private void InitializeStreetImageMap()
         {
             // Map street names to images stored in Resources
-            /*streetImageMap = new Dictionary<string, Bitmap>
+            streetImageMap = new Dictionary<string, Bitmap>
             {
                 { "Gedimino pr.", Properties.Resources.gedimino },
                 { "Pilies g.", Properties.Resources.pilies },
@@ -55,7 +55,7 @@ namespace WindowsFormsApp1
                 { "Mindaugo g.", Properties.Resources.mindaugo },
                 { "Laisvės pr.", Properties.Resources.laisves },
                 { "J. Basanavičiaus g.", Properties.Resources.basanaviciaus }
-            };*/
+            };
         }
 
         // Event handler for when the selected index in listBox1 changes
@@ -68,12 +68,29 @@ namespace WindowsFormsApp1
             if (streetImageMap.ContainsKey(selectedStreet))
             {
                 // Load the image from resources and display it in the PictureBox
-                pictureBox1.Image = streetImageMap[selectedStreet];
+                pictureBox2.Image = streetImageMap[selectedStreet];
+
+                // Enable the button now that something is selected
+                button1.Enabled = true;
             }
             else
             {
                 MessageBox.Show($"No image available for {selectedStreet}");
             }
+        }
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Sukuriame naują Form6 egzempliorių
+            Form6 form6 = new Form6();
+
+            // Rodome Form5 langą
+            form6.Show();
+            this.Hide();
         }
     }
 }

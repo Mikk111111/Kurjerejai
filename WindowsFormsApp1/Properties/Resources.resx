@@ -118,19 +118,55 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="stock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\stock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="svitrigailos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\svitrigailos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ezgif-3-7fdb435a6c" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ezgif-3-7fdb435a6c.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mindaugo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mindaugo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pagrindinis" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pagrindinis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Main_map" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Main_map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bye_sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bye_sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gedimino" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gedimino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ozo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ozo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vilnius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vilnius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="put_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\put_in.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pilies" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pilies.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pagrindin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pagrindin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vokieciu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vokieciu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laisves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laisves.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goodbye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\goodbye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jaksto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jaksto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="basanaviciaus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\basanaviciaus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Takeout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Takeout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="konstitucijos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\konstitucijos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drone.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
