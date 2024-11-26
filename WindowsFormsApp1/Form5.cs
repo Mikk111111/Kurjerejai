@@ -21,7 +21,7 @@ namespace WindowsFormsApp1
 
             // Initialize and configure the Timer
             closeTimer = new Timer();
-            closeTimer.Interval = 10000; // 15 seconds = 15000 milliseconds
+            closeTimer.Interval = 10000; // 10 seconds = 10000 milliseconds
             closeTimer.Tick += CloseTimer_Tick; // Event handler for the Timer Tick event
             closeTimer.Start(); // Start the timer
         }

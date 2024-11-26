@@ -78,6 +78,7 @@ namespace WindowsFormsApp1
             // Form3
             // 
             this.BackColor = System.Drawing.Color.RosyBrown;
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(484, 861);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox2);

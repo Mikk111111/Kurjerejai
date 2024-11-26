@@ -85,6 +85,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Class1.UserStreet = listBox2.SelectedItem.ToString();
             // Sukuriame naują Form6 egzempliorių
             Form6 form6 = new Form6();
 

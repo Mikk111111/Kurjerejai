@@ -16,24 +16,16 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
-            /*
-            GraphicsPath p = new GraphicsPath();
-            p.AddEllipse(1, 1, button1.Width - 2, button1.Height - 2);
-            button1.Region = new Region(p);
-
-            GraphicsPath q = new GraphicsPath();
-            q.AddEllipse(1, 1, button2.Width - 2, button2.Height - 2);
-            button2.Region = new Region(p);
-            */
+            
         }
-        // Tai yra įvykio tvarkyklė mygtukui. Ją redaguosime, kad atidarytų Form2.
+
         private void button1_Click(object sender, EventArgs e)
         {
             // Sukuriame naują Form2 egzempliorių
-            Form2 form2 = new Form2();
+            Form7 form7 = new Form7();
 
             // Rodome Form2 langą
-            form2.Show();
+            form7.Show();
             this.Hide();
         }
 

@@ -35,12 +35,17 @@ namespace WindowsFormsApp1
 
             // Display the random code in textBox1
             textBox1.Text = randomCode.ToString();
+
+            Class1.GeneratedCode = randomCode.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             // Sukuriame naują Form5 egzempliorių
             Form5 form5 = new Form5();
+
+            Class1.PushDataToDatabase();
+            Class1.PrintClass1Data();
 
             // Rodome Form5 langą
             form5.Show();

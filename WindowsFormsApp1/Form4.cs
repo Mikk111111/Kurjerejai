@@ -11,7 +11,7 @@ using System.Media;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form4 : Form
+    public partial class Form4 : UserControl
     {
         public Form4()
         {
