@@ -8,10 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using MySql.Data.MySqlClient;
+using System.Xml.Linq;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form4 : UserControl
+    public partial class Form4 : Form
     {
         public Form4()
         {
@@ -45,12 +47,63 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // Create a new instance of Form5
-            Form5 form5 = new Form5();
+            // Get the entered code from textBox2
+            string enteredCode = textBox2.Text;
 
-            // Show Form5
-            form5.Show();
-            this.Hide();
+            // Connection string to the database
+            string ConnectionString = "Server=sql7.freesqldatabase.com;Database=sql7747669;Uid=sql7747669;Pwd=suHFe6f92Y;Port=3306;";
+
+            try
+            {
+                using (MySqlConnection connection = new MySqlConnection(ConnectionString))
+                {
+                    // Open the database connection
+                    connection.Open();
+
+                    // Query to check if the entered code exists in the database
+                    string query = "SELECT COUNT(*) FROM Users WHERE GeneratedCode = @GeneratedCode";
+
+                    using (MySqlCommand command = new MySqlCommand(query, connection))
+                    {
+                        // Add parameter to the query
+                        command.Parameters.AddWithValue("@GeneratedCode", enteredCode);
+
+                        // Execute the query and get the result
+                        int codeExists = Convert.ToInt32(command.ExecuteScalar());
+
+                        if (codeExists > 0)
+                        {
+                            // Create a new instance of Form5
+                            Form5 form5 = new Form5();
+
+                            // Show Form5
+                            form5.Show();
+                            this.Hide();
+                        }
+                        else
+                        {
+                            label2.Text = "Invalid code. Please try again.";
+                            label2.ForeColor = Color.Red;  // Set the error message color to black
+                            label2.Font = new Font(label2.Font.FontFamily, 24);  // Set font size to 48pt  
+                        }
+                    }
+                }
+            }
+            catch (MySqlException mysqlEx)
+            {
+                // Handle MySQL-specific errors
+                MessageBox.Show($"MySQL Error: {mysqlEx.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                // Handle general errors
+                MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
